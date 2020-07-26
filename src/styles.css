@@ -1,0 +1,185 @@
+html,
+body {
+  height: 100%;
+  text-align: center;
+}
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+  text-align: center;
+  overflow: scroll;
+  max-width: 100%;
+  /* opacity: 88%;
+  background-image: url("https://www.transparenttextures.com/patterns/escheresque.png"); */
+  z-index: -1;
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  font-size: 0.9rem;
+  vertical-align: middle;
+  width: fit-content;
+}
+
+.closebtn {
+  right: 10px;
+  top: 5px;
+  color: white;
+  font-weight: bold;
+  /* float: right; */
+  font-size: 20px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: auto;
+  position: absolute;
+}
+
+.closebtn:hover {
+  color: black;
+}
+.everything {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+}
+.container {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: fit-content;
+  padding: 5% 0%;
+}
+.col-lg-12 {
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.array-container {
+  height: fit-content;
+  text-align: center;
+  /* padding: 50px; */
+  margin: auto;
+  justify-content: center;
+  align-self: center;
+  z-index: 0;
+}
+.array-container-down {
+  position: relative;
+  /* top: 15vh; */
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: fit-content;
+  z-index: 0;
+}
+.array-container-up {
+  position: relative;
+  /* top: 15vh; */
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: fit-content;
+  transform: rotateX(180deg);
+  z-index: 0;
+}
+.array-bar-down {
+  /* width: 2px; */
+  position: relative;
+  /* top: 50%; */
+  /* background-color: pink; */
+  width: 2px;
+  /* display: inline; */
+  margin-right: 1px;
+  z-index: 0;
+}
+.array-bar-up {
+  /* width: 2px; */
+  position: relative;
+  /* top: 0%; */
+  /* background-color: pink; */
+  width: 2px;
+  /* display: inline; */
+  margin-right: 1px;
+  z-index: 0;
+}
+.btn-container {
+  position: relative;
+  /* top: 20px;
+  left: 25%; */
+  display: flex;
+  align-items: center;
+  z-index: 0;
+  white-space: initial;
+  overflow-x: scroll;
+  float: left;
+}
+.navbar {
+  /* align-items: center;
+  justify-content: center; */
+  vertical-align: middle;
+  position: relative;
+  width: 100%;
+  padding: 1%;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+.btn {
+  margin-right: 1.5%;
+}
+.btn-sm:disabled {
+  cursor: default;
+}
+.btn-sm:hover {
+  background-color: #ffc107c5;
+}
+.footer .container {
+  margin: auto;
+  padding: 0% 1%;
+  margin-top: -20px;
+}
+.sort-btn {
+  position: relative;
+  /* padding: 1%; */
+}
+nav {
+  padding: 4%;
+}
+@media (max-width: 420px) {
+  nav {
+    padding: 4%;
+  }
+  .btn {
+    transform: scale(0.7, 0.7);
+    font-size: 0.7rem;
+    /* white-space: nowrap; */
+  }
+  .btn {
+    margin-right: 3%;
+  }
+  .select {
+    margin-right: 100px;
+  }
+}
+@media (max-width: 575px) {
+  .btn {
+    transform: scale(0.8, 0.8);
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+  .btn {
+    margin-right: 3%;
+  }
+  .container {
+    transform: scale(0.8, 0.8);
+  }
+}
