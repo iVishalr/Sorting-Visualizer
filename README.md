@@ -1,6 +1,6 @@
 # Sorting Visualizer
 
-This is a simple react app that is used to visualize some of the basic sorting algorithms such as bubble sort, inserstion sort, quick sort, selection sort and cocktail sort. 
+This is a react app that visualizes some of the basic sorting algorithms such as bubble sort, inserstion sort, quick sort, selection sort and cocktail sort. 
 
 ## Requirements
 
@@ -46,6 +46,6 @@ In your terminal, type
   ```
 This will start a server on your local system. Go to `http://localhost:5000` to use the optimized version of the code.
 
-### Deployed Code
+### Website
 
 Head over to https://iVishalr.github.io/Sorting-Visualizer in Chrome browser and have a play around with different sorting algorithms.
