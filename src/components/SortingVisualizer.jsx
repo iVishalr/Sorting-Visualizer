@@ -158,7 +158,7 @@ function SortingVisualizer() {
           handleColorChangeQS(colorArray, tempIdx, blue);
           tempIdx = min_idx;
           await sleep(1);
-          handleColorChangeQS(colorArray, min_idx, "orange");
+          handleColorChangeQS(colorArray, min_idx, "rgba(255,167,25,0.8)");
         }
       }
       handle2ColorChangeQS(colorArray, min_idx, i, red);
@@ -331,7 +331,6 @@ function SortingVisualizer() {
                     setIsSorted(true);
                   } else if (SortAlgo === "quick") {
                     await QuickSort(array, 0, array.length - 1);
-                    await sleep(0);
                     for (let i = 0; i < array.length; i++) {
                       handleColorChangeQS(colorArray, i, green);
                     }
